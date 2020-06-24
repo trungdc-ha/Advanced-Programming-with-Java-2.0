@@ -1,4 +1,4 @@
-package casestudy;
+package case_study;
 
 public class Node {
     public String word;

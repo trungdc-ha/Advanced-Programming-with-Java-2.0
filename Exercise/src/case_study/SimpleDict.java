@@ -1,4 +1,4 @@
-package casestudy;
+package case_study;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class SimpleDict {
         String command = new String();
         String[] commands = new String[3];
 
-        dict.loadDictionaryFromFile("src/CaseStudy/DICT.DAT");
+        dict.loadDictionaryFromFile("D:\\Work\\CodeGym\\Module_2\\Exercise\\src\\case_study\\DICT.DAT");
         dict.use();
         do {
             System.out.print("> ");
@@ -27,7 +27,7 @@ public class SimpleDict {
                     dict.delete(commands[1]);
                     break;
                 case "save":
-                    dict.save("src/CaseStudy/DICT.DAT");
+                    dict.save("D:\\Work\\CodeGym\\Module_2\\Exercise\\src\\case_study\\DICT.DAT");
                     break;
                 case "quit":
                     break;
